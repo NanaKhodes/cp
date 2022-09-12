@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    max-height: 100%;
+}
+
+.wrapper{
+    background-color: rgb(56, 138, 138);
+    width: 100%;
+    height: 100%;
+    
+}
+
+nav{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 20px;
+    padding: 2px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 20px;
+}
+
+nav ul li a:hover{
+    color: aqua;
+
+}
+
+span{
+    color: aqua;
+}
+
+h3{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    color: white;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+p{
+    color: white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.container{
+    position: relative;
+    
+}
+
+.details{
+    position: absolute;
+    bottom: 60%;
+    left: 5%;
+    
+}
+
+.details a{
+    background-color: rgb(51, 61, 61);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(56, 138, 138);;
+    background-color: aqua;
+    display: inline-block ;
+    border-radius: 5px;
+    margin-top:15px;
+    margin-left: 3px;
+}
+
+.details a:hover{
+    color: white;
+    background-color: aquamarine;
+}
+
+.image{   
+    opacity: 0.5;  
+}
+
+h5{
+    color: aqua;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:767px){
+    .wrapper{
+        background-color: black;
+    }
+    h3{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+     
+p{
+    font-size: 20px;
+}
+details a{
+    font-size: 10px;
+    padding: 5px 9px;
+}
+.image{
+    opacity: 0.5;
+}
+    
+}
